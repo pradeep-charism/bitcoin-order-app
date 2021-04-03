@@ -19,6 +19,7 @@ before_script:
   
 script:
   - ng build --prod --base-href https://pradeep-charism.github.io/bitcoin-order-app/
+  - ng lint
 
 deploy:
   provider: pages
