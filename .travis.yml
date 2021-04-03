@@ -20,7 +20,6 @@ before_script:
 script
   - ng lint
   - npm audit fix
-  - npm update
   - ng build --prod --base-href https://pradeep-charism.github.io/bitcoin-order-app/
 
 deploy:
