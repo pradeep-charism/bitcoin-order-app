@@ -17,7 +17,7 @@ branches:
 before_script:
   - npm install -g @angular/cli
   
-script
+script:
   - ng lint
   - npm audit fix
   - ng build --prod --base-href https://pradeep-charism.github.io/bitcoin-order-app/
@@ -30,4 +30,3 @@ deploy:
   edge: true
   on:
     branch: development
- 
